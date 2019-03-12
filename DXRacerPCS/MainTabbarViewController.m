@@ -19,7 +19,7 @@
         OneViewController *oneVc = [[OneViewController alloc]init];
         MainNavigationViewController *mainoneVC = [[MainNavigationViewController alloc]initWithRootViewController:oneVc];
         mainoneVC.title = @"主页";
-        oneVc.navigationItem.title = @"迪锐克斯";
+        oneVc.navigationItem.title = @"";
         mainoneVC.tabBarItem.image = [UIImage imageNamed:@"tabbar_2"];
         mainoneVC.tabBarItem.selectedImage = [UIImage imageNamed:@"tabbar_02"];
         
@@ -59,9 +59,9 @@
         self.tabBar.tintColor = RGBACOLOR(32.0, 157.0, 149.0, 1.0);
         
         if ([[Manager redingwenjianming:@"rolename.text"] isEqualToString:@"财务主管"] || [[Manager redingwenjianming:@"rolename.text"] isEqualToString:@"财务收款专员"]){
-            self.viewControllers = @[mainoneVC,main1twoVC,mainthreeVC,mainfourVC];
+            self.viewControllers = @[mainoneVC,mainfourVC];
         }else{
-            self.viewControllers = @[mainoneVC,maintwoVC,mainthreeVC,mainfourVC];
+            self.viewControllers = @[mainoneVC,mainfourVC];
         }
         
         

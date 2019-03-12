@@ -1204,7 +1204,7 @@
 				TargetAttributes = {
 					083978251F25948800A78E90 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = 8549J8BJBB;
+						DevelopmentTeam = P8TD9N5X56;
 						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
@@ -1629,10 +1629,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution: DXRACER TECHNOLOGY  WUXI. CO.,LTD (8549J8BJBB)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = P8TD9N5X56;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/DXRacerPCS/PrefixHeader.pch";
 				INFOPLIST_FILE = DXRacerPCS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -1655,7 +1655,7 @@
 					"-framework",
 					"\"SystemConfiguration\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = dxracer.com.cn.DXRacerPCS;
+				PRODUCT_BUNDLE_IDENTIFIER = psystem.com.cn.psystem;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1678,10 +1678,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution: DXRACER TECHNOLOGY  WUXI. CO.,LTD (8549J8BJBB)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = P8TD9N5X56;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/DXRacerPCS/PrefixHeader.pch";
 				INFOPLIST_FILE = DXRacerPCS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -1704,7 +1704,7 @@
 					"-framework",
 					"\"SystemConfiguration\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = dxracer.com.cn.DXRacerPCS;
+				PRODUCT_BUNDLE_IDENTIFIER = psystem.com.cn.psystem;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
